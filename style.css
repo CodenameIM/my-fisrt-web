@@ -1,0 +1,39 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin:0px;
+  padding:0px;
+  color: black;
+}
+.intro{
+  background-image: url("intro.png");
+  width:100%;
+  height:718px;
+
+}
+.header{
+  width: 1280px;
+  margin: auto;
+  background: red;
+  display: flex;
+  height: 86px;
+}
+.seachArea{
+  width: 300px;
+  height: 40px;
+  background: green;
+  border-radius: 5px;
+}
+.nav{
+  display: flex;
+  width: calc(1280px - 300px);
+  line-height: 86px;
+  background: blue;
+  justify-content: flex-end;
+
+}
+.nav>li{
+  margin-left: 84px;
+}
